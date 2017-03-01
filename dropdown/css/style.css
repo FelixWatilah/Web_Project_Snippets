@@ -1,0 +1,45 @@
+body{
+    background-color: #F6F8F8;
+}
+
+#content{
+    margin-top: 70px;
+}
+
+.panel h5, p{
+    padding: 1%;
+}
+
+.panel-title{
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+}
+
+.navbar-brand{
+    font-family: "Oswald", sans-serif;
+    font-size: 150%;
+    font-weight: bolder;
+    color: #000;
+    background-color: #05121B;
+}
+
+img{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.panel-footer label{
+    font-weight: bolder;
+    font-family: "Oswald", sans-serif;
+    font-size: 150%;
+    margin: 0 30%;
+}
+
+#title{
+    margin-top: 80px;
+}
+
+#navbar{
+    background-color: #2D3033;
+}

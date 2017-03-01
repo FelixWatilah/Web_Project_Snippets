@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact form</title>
+	<link rel="stylesheet" type="text/css" href="contactForm.css">
+</head>
+<body>
+
+<div id="mainform">
+	<h2>Simple Contact Form, with validation</h2>
+	<!-- required divs starts from here -->
+	<form id="form" method="POST" action="contactForm.php">
+		<h3>Contact Form</h3>
+		<p id="returnMessage"></p>
+		<label>Name:<span>*</span></label>
+		<input type="text" name="name" id="name" placeholder="Name"><br />
+		<label>Email:<span>*</span></label>
+		<input type="email" name="email" id="email" placeholder="Email"><br />
+		<label>Phone No:<span>*</span></label>
+		<input type="text" name="phone" id="phone" placeholder="Phone"><br />
+		<label>Message</label>
+		<textarea id="message" name="mesasge" placeholder="Message"></textarea><br />
+		<input type="submit" name="submit" id="submit" value="Send Message" />
+	</form><!-- end form -->
+</div><!-- end mainform -->
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="contactForm.js"></script>
+</body>
+</html>

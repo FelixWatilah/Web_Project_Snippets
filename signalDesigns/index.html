@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signal Designs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My website">
+    <meta name="author" content="Wakhale F Watilah">
+
+    <!------------------
+    stylesheet
+    ------------------->
+    <!-- google fonts api -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald">
+
+    <!-- lightbox css -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <!-- glyphicons css -->
+    <link rel="stylesheet" href="css/bootstrap-glyphicons.css"/>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="owl-carousel/assets/css/bootstrapTheme.css">-->
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+
+    <!-- owl-carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- jquery-ui css -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+
+    <!-- customCss css -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- google-code-pretiffy css -->
+    <link rel="stylesheet" href="css/prettify.css">
+
+    <!-- modernizr js -->
+    <script rel="script" src="js/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+
+<!-- navbar -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+                <ul class="nav" id="title">
+                    <li><a href="index.html"><strong>SIGNAL DESIGNS</strong></a></li>
+                </ul><!-- end title -->
+                <ul class="nav" id="menu">
+                    <li class="menu" id="home"><a class="active" href="index.html">HOME</a></li>
+                    <li class="dropdown menu" id="drop1">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES&nbsp;<strong><i class="fa fa-caret-down"></i></strong></a>
+                        <ul class="dropdown-menu" id="drop-menu1">
+                            <li><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Web Design & Development</a></li>
+                            <li class="dropdow" id="drop2">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-caret-right"></i>&nbsp;Graphic Design&nbsp;<i class="fa fa-caret-right"></i>
+                                </a>
+                                <ul class="dropdown-menu" id="drop-menu2">
+                                    <li class="drop-menu2"><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Posters</a></li>
+                                    <li class="drop-menu2"><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Logos</a></li>
+                                    <li class="drop-menu2"><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Billboards</a></li>
+                                    <li class="drop-menu2"><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Brochures</a></li>
+                                </ul>
+                            </li>
+                        </ul><!-- end dropdown-menu -->
+                    </li><!-- end dropdown -->
+                    <li class="menu" id="pricing"><a href="#price">PRICING</a></li>
+                    <li class="menu" id="about"><a href="#whoWeAre">ABOUT</a></li>
+                    <li class="menu" id="contact"><a href="#myContact">CONTACT</a></li>
+                </ul><!-- end nav -->
+                <form class="navbar-form pull-right" id="searchInput">
+                    <input type="text" name="text" class="form-control" placeholder="Search this site...">
+                    <button type="submit" class="btn btn-primary"><span class="fa fa-search"></span></button>
+                </form><!--end navbar-form-->
+            </div><!-- end nav-collapse -->
+        </div><!-- end container -->
+    </div><!-- end navbar-inner -->
+</div><!-- end navbar-fixed-top -->
+
+<!-- content -->
+<div class="container">
+
+    <!-- countdown -->
+    <div class="nav thumbnail notification" id="countdown">
+        <span class="days">00</span>&nbsp;Days :
+        <span class="hours">00</span>&nbsp;Hours :
+        <span class="mins">00</span>&nbsp;Minutes :
+        <span class="secs">00</span>&nbsp;Seconds
+        <span>&nbsp;*****To go to kitale*****</span>
+        <span>&nbsp;Enter Date:<input id="date" type="date"></span>
+    </div><!-- end countdown -->
+
+    <!-- carousel slide -->
+    <div class="owl-carousel owl-theme thumbnail" id="sliderCarousel">
+        <div class="item"><a href="img/fullimage1.jpg" data-lightbox="papa"><img src="img/fullimage1.jpg" alt="full1"/></a></div>
+        <div class="item"><a href="img/fullimage2.jpg" data-lightbox="papa"><img src="img/fullimage2.jpg" alt="full2"/></a></div>
+        <div class="item"><a href="img/fullimage3.jpg" data-lightbox="papa"><img src="img/fullimage3.jpg" alt="full3"/></a></div>
+        <div class="item"><a href="img/fullimage4.jpg" data-lightbox="papa"><img src="img/fullimage4.jpg" alt="full4"/></a></div>
+        <div class="item"><a href="img/fullimage5.jpg" data-lightbox="papa"><img src="img/fullimage5.jpg" alt="full5"/></a></div>
+        <div class="item"><a href="img/fullimage6.jpg" data-lightbox="papa"><img src="img/fullimage6.jpg" alt="full6"/></a></div>
+        <div class="item"><a href="img/fullimage7.jpg" data-lightbox="papa"><img src="img/fullimage7.jpg" alt="full7"/></a></div>
+    </div><!-- end sliderCarousel -->
+
+    <!-- features -->
+    <div class="row" id="features">
+
+        <!-- who we are -->
+        <div class="span5" id="whoWeAre">
+            <div class="panel">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <h3><strong><i class="fa fa-users">&nbsp;WHO WE ARE</i></strong></h3>
+                    </div><!-- end panel-title -->
+                    <hr>
+                </div><!-- end panel-heading -->
+                <p>We are a team of dedicated developers, who create front-end websites.</p>
+                <a href="#" target="_blank" class="btn btn-danger"><i class="fa fa-plus"></i>&nbsp;More</a>
+            </div><!-- end panel -->
+        </div><!-- end whoWeAre -->
+
+        <!-- our services -->
+        <div class="span5" id="ourServices">
+            <div class="panel">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <h3><strong><i class="fa fa-gears">&nbsp;OUR SERVICES</i></strong></h3>
+                    </div><!-- end panel-title -->
+                    <hr>
+                </div><!-- end panel-heading -->
+
+                <div id="accord">
+                    <h4><a href="#">Website Design</a></h4>
+                    <div>
+                        <ul>
+                            <li>Using CMS
+                                <ul>
+                                    <li>Joomla</li>
+                                    <li>Wordpress</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Without CMS
+                            </li>
+                        </ul>
+                    </div>
+                    <h4><a href="#">Graphics Design</a></h4>
+                    <div>
+                        <ul>
+                            <li>Posters</li>
+                            <li>Billboards</li>
+                            <li>Logos</li>
+                            <li>Calendars</li>
+                        </ul>
+                    </div>
+                </div><!-- end accordion -->
+                <a href="#" target="_blank" class="btn btn-warning"><i class="fa fa-eye"></i>&nbsp;View</a>
+            </div><!-- end panel -->
+        </div><!-- end ourServices -->
+
+        <!-- quick links -->
+        <div class="span2">
+            <div class="thumbnail">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h6 class="panel-title">Quick links</h6>
+                    </div>
+                    <hr>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Posters</a></li>
+                        <li><a href="#">Logos</a></li>
+                        <li><a href="#">Billboards</a></li>
+                    </ul>
+                </div><!-- end panel -->
+            </div><!-- end thumbnail -->
+        </div><!-- end quickLinks -->
+    </div><!-- end features -->
+
+    <!-- bigCallOut -->
+    <div class="row" id="bigCallOut">
+        <div class="span10">
+            <div class="well">
+                <h4>Do you want a website of your own?</h4>
+                <hr>
+                <p>Make a deal with us today, and own a very responsive and full functional website.</p>
+                <a href="#myContact" class="btn btn-large btn-primary" id="btn-info">Get in Touch</a>
+            </div><!-- end well -->
+        </div><!-- end span10 -->
+        <div class="span2">
+            <div class="thumbnail">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h6 class="panel-title">News</h6>
+                    </div>
+                    <hr>
+                    <ul>
+                        <li><a href="#">Raila in Western Kenya</a></li>
+                        <li><a href="#">Dormitories on fire!</a></li>
+                        <li><a href="#">IEBC on the go.</a></li>
+                    </ul>
+                </div><!-- end panel -->
+            </div><!-- end thumbnail -->
+        </div><!-- end span2 -->
+    </div><!-- end bigCallOut -->
+
+    <!-- misc -->
+    <div class="row" id="misc">
+        <div class="span5 feature" id="myContact">
+            <div class="panel">
+                <form class="form-horizontal" id="contact_form">
+                    <h6><strong>Contact Information</strong></h6>
+                    <hr>
+                    <h5>&nbsp;<small>Please fill out the details, and tell us something.</small></h5>
+
+                    <div class="form-group">
+                        <label for="inputName" class="col-sm-2 control-label"><strong>Name:</strong></label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name="name" id="inputName" placeholder="Felix Watilah">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-sm-2 control-label"><strong>Email:</strong></label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="email" name="email" id="inputEmail" placeholder="fwatilah@gmail.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputNumber" class="col-sm-2 control-label"><strong>Phone:</strong></label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name="number" id="inputNumber" placeholder="0712423121">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputMessage" class="col-sm-2 control-label"><strong>Message:</strong></label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" name="message" id="inputMessage" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="select" class="col-sm-2 control-label"><strong>Select a product:</strong></label>
+                        <div class="col-sm-10">
+                            <select class="form-control" id="select">
+                                <option selected>Choose a product</option>
+                                <option value="website">Website</option>
+                                <option value="poster">Poster</option>
+                                <option value="logo">Logo</option>
+                                <option value="brochure">Brochure</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-10">
+                            <p class="muted">Would you like to subscribe to our services?</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-10">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="yesNo" checked="checked"> Yes
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-10">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="yesNo"> No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="alert warning alert-block fade in" id="phoneInfo">
+                        <button class="close fa fa-times" data-dismiss="alert"></button>
+                        <h5 class="alert-heading"><i class="fa fa-info-circle"></i>&nbsp;Warning</h5>
+                        <p>
+                            <span><strong class="phoneInfo"></strong></span>,&nbsp;<span><strong class="phoneError"></strong></span>&nbsp;is not a valid phone number.
+                        </p>
+                    </div><!-- end phoneInfo -->
+
+                    <div class="alert alert-success alert-block fade in" id="success">
+                        <button class="close fa fa-times" data-dismiss="alert"></button>
+                        <h5 class="alert-heading"><i class="fa fa-check-circle"></i>&nbsp;Success</h5>
+                        <p>Thanks <span><strong class="user"></strong></span>, details submitted successfully.</p>
+                    </div><!-- end success -->
+
+                    <div class="alert alert-error alert-block fade in" id="error">
+                        <button type="button" class="close fa fa-times" data-dismiss="alert"></button>
+                        <h5 class="alert-heading"><i class="fa fa-warning"></i>&nbsp;Error</h5>
+                        <p>You can't submit empty fields. Please fill out the empty fields.</p>
+                    </div><!-- end error -->
+
+                    <div class="alert alert-info alert-block fade in" id="info">
+                        <button type="button" class="close fa fa-times" data-dismiss="alert"></button>
+                        <h5 class="alert-heading"><i class="fa fa-bell">&nbsp;Information</i></h5>
+                        <p class="info"></p>
+                    </div><!-- end info -->
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input class="form-control btn btn-success" type="submit"  value="Submit" id="sbtButton" >
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </form><!-- end form -->
+            </div><!-- end panel thumbnail -->
+        </div><!-- end myContact -->
+        <div class="span5">
+            <div class="panel" id="price">
+                <div class="panel-heading">
+                    <h6 class="panel-title">Our Pricing</h6>
+                    <hr>
+                </div><!-- end panel-heading -->
+                <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat.</p>
+                    <div class="table-responsive">
+                        <table class="table table-condensed">
+                            <tr class="danger">
+                                <th><i class="fa fa-pencil"></i></th>
+                                <th><i class="fa fa-user">&nbsp;Name</i></th>
+                                <th><i class="fa fa-phone">&nbsp;Phone No</i></th>
+                                <th><i class="fa fa-envelope">&nbsp;Email</i></th>
+                                <th><i class="fa fa-building">&nbsp;Town</i></th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Felix Watilah</td>
+                                <td>0712423121</td>
+                                <td>fwatilah@gmail.com</td>
+                                <td>Kitale</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Joshua Ongaga</td>
+                                <td>0727341232</td>
+                                <td>jonga@gmail.com</td>
+                                <td>Kisii</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Stella Nzula</td>
+                                <td>0723564536</td>
+                                <td>stellanzula@gmail.com</td>
+                                <td>Makueni</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Nancy Lesororo</td>
+                                <td>0791034070</td>
+                                <td>lesororo@gmail.com</td>
+                                <td>Samburu</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Fred Kamau</td>
+                                <td>0790388511</td>
+                                <td>fredkamau@gmail.com</td>
+                                <td>Murang'a</td>
+                            </tr>
+                        </table>
+                    </div><!-- end table -->
+                </div><!-- end panel-body -->
+            </div><!-- end panel -->
+        </div><!-- end span5 -->
+        <div class="span2">
+            <div class="panel">
+                <div class="panel-body">
+                    <a class="twitter-timeline" data-width="100%" data-height="450" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/watilahfelix">Felix Watilah</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div><!-- end pan el-body -->
+            </div><!-- end panel -->
+        </div><!-- end span2 -->
+    </div><!-- end misc-->
+
+    <!-- developer modal -->
+    <div class="modal fade" id="developerModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"><strong>Wakhale Felix Watilah</strong></h4>
+                </div><!-- end modal-header -->
+
+                <div class="modal-body">
+                    <a href="img/papa.jpg" data-title="W.F.Watilah" data-lightbox="W.F. Watilah">
+                        <img src="img/papa.jpg" width="200px" height="400px" class="thumbnail pull-left" id="developer"/>
+                    </a>
+                    <p>I am a student at Multimedia University of Kenya, studying Bachelor of Science in Information Technology.
+                        I am a founder of Signal Designs, a websites and graphics design company.</p>
+                    <p>I develop responsive websites, which look nice on all devices with different widths; Smart phones, Tablets, Mini-laptops,
+                        Laptops, Desktops and also TVs.</p>
+                </div><!-- end modal-body -->
+
+                <div class="modal-footer">
+                    <h6>
+                        <small class="muted pull-left">---------------&nbsp;For direct communication, call:&nbsp;
+                            <strong>0712423121&nbsp;</strong>---------------&nbsp;
+                        </small>
+                        <button class="btn btn-danger pull-right" data-dismiss="modal" id="modalClose">Close</button>
+                    </h6>
+                </div><!-- end modal-footer -->
+
+            </div> <!-- end modal-content -->
+        </div><!-- end developer dialog -->
+    </div><!-- end developer modal -->
+
+</div><!-- end container -->
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="thumbnails row" id="footerH6">
+            <div class="span2">
+                <h6>Navigation</h6>
+                <ul id="navigation">
+                    <li><a href="#"><span class="fa fa-home"></span>&nbsp;Home</a></li>
+                    <li><a href="#"><span class="fa fa-gears"></span>&nbsp;Services</a></li>
+                    <li><a href="#"><span class="fa fa-info-circle"></span>&nbsp;About Us</a></li>
+                    <li><a href="#"><span class="fa fa-phone"></span>&nbsp;Contact Us</a></li>
+                </ul>
+            </div><!-- end span2 -->
+            <div class="span2">
+                <h6>Follow Us</h6>
+                <ul id="socialLinks">
+                    <li><a href="#"><i class="fa fa-twitter-square"></i>&nbsp;Twitter</a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square"></i>&nbsp;Facebook</a> </li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i>&nbsp;LinkedIn</a> </li>
+                    <li><a href="#"><i class="fa fa-google-plus-square"></i>&nbsp;Google-Plus</a> </li>
+                </ul>
+            </div><!-- end span2 -->
+            <div class="span4">
+                <h6>Location</h6>
+                <p>We are located at Multimedia University, along Magadi Road, Near Ongata Rongai town.</p>
+            </div><!-- end span4 -->
+            <div class="span2">
+                <h6>copyright</h6>
+                <p>Signal Designs</p>
+                <p>Copyright &copy; 2016</p>
+            </div><!-- end span2 -->
+            <div class="span2">
+                <h6>Developer
+                    <a href="#"><i class="fa fa-arrow-up pull-right" id="top">&nbsp;Scroll to Top</i></a>
+                </h6>
+                <a href="img/IMG01318.jpg" data-title="W.F.Watilah, BSc. Information Technology - MMU" data-lightbox="developer">
+                    <img src="img/IMG01318.jpg" width="80px" height="80px" class="thumbnail">
+                </a>
+                <div class="caption">
+                    <p>
+                        <a href="#developerModal" role="button" data-toggle="modal">
+                            <button class="btn btn-primary btn-block">W.F.Watilah</button>
+                        </a>
+                    </p>
+                </div><!-- end caption -->
+            </div><!-- end span2 -->
+        </div> <!-- end thumbnails -->
+    </div><!-- end container -->
+</footer><!-- end footer -->
+
+<!--------------
+javascript links
+--------------->
+
+<!--jquery js -->
+<script rel="script" src="js/jquery.min.js"></script>
+
+<!-- jquery-ui js -->
+<script rel="script" src="js/jquery-ui.min.js"></script>
+
+<!-- bootstrap js -->
+<script rel="script" src="js/bootstrap.min.js"></script>
+
+<!-- google-code-pretiffy -->
+<script rel="script" src="js/prettify.js"></script>
+
+<!-- lightbox js -->
+<script rel="script" src="js/lightbox.min.js"></script>
+
+<!-- owl-carousel js -->
+<script rel="script" src="js/owl.carousel.min.js"></script>
+
+<!-- jQuery-countdown plugin -->
+<script rel="script" src="js/jQuery-countdown.js"></script>
+
+<!-- customScript -->
+<script rel="script" src="js/customScript.js"></script>
+
+</body>
+</html>

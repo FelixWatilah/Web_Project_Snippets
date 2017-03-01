@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smartec Designs</title>
+	<!-- css libraries -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/w3css.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/circliful.css">
+    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/hover-min.css">
+
+	<script type="text/javascript" src="js/modernizr.min.js"></script>
+</head>
+<body>
+<!-- ==============================
+	container
+============================== -->
+<div class="container-fluid">
+    
+    <!-- ==============================
+	modal contact-form
+    ============================== -->
+    <div class="modal fade" id="contact-form">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" role="button" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                    <h4 class="modal-title">Contact Information</h4>
+                </div><!-- end modal-header -->
+                <div class="modal-body">
+                    <div class="alert" id="alert">
+
+                    </div>
+                    <form class="form-horizontal" action="#" method="POST"  id="frmContact">
+                        <!-- form-groups -->
+                        <div class="form-group">
+                            <label for="name" class="col-lg-3 control-label">Name:<span>*</span></label>
+                            <div class="col-lg-9">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Felix Watilah">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-lg-3 control-label">Email:<span>*</span></label>
+                            <div class="col-lg-9">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="fwatilah@gmail.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="col-lg-3 control-label">Phone:<span>*</span></label>
+                            <div class="col-lg-9">
+                                <input type="text" class="form-control" name="phone" id="phone" placeholder="0712 423 121">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="col-lg-3 control-label">Message:<span>*</span></label>
+                            <div class="col-lg-9">
+                                <textarea class="form-control" name="message" id="message" rows="3" placeholder="comment"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" class="form-control btn btn-success" id="submit" name="submit" value="Submit">
+                        <!-- end form-groups -->
+                    </form><!-- end form -->
+                </div><!-- end modal-body -->
+                <div class="modal-footer">
+                    <small class="text-muted">For direct communication, use the phone number in the phone field.</small>
+                </div><!-- end modal-footer -->
+            </div><!-- end modal-content -->
+        </div><!-- end modal-dialog -->
+    </div><!-- end modal -->
+
+    <!-- ==============================
+	modal developer
+    ============================== -->
+    <div class="modal fade" id="developer">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" role="button" data-dismiss="modal"><i class="fa fa-times-circle-o"></i></button>
+                    <h4 class="modal-title">Felix&nbsp;<strong>Watilah</strong></h4>
+                </div><!-- end modal-header -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                                <img src="img/IMG_20160803_115908.jpg" class="img-responsive img-circle">
+                        </div><!-- end col-lg-4 -->
+                    </div><!-- end row -->
+                </div>
+                <div class="modal-footer">
+                </div><!-- end modal-footer -->
+            </div><!-- end modal-content -->
+        </div><!-- end modal-dialog -->
+    </div><!-- end modal -->
+
+    <!-- ==============================
+	modal posters
+    ============================== -->
+    <div class="modal fade" id="posters-m">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" role="button" data-dismiss="modal"><i class="fa fa-times-circle-o"></i></button>
+                    <h4 class="modal-title">POSTERS</h4>
+                </div><!-- end modal-header -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                    </div><!-- end row -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                    </div><!-- end row -->
+                </div>
+                <div class="modal-footer">
+                </div><!-- end modal-footer -->
+            </div><!-- end modal-content -->
+        </div><!-- end modal-dialog -->
+    </div><!-- end modal -->
+
+    <!-- ==============================
+	modal logos
+    ============================== -->
+    <div class="modal fade" id="logos-m">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" role="button" data-dismiss="modal"><i class="fa fa-times-circle-o"></i></button>
+                    <h4 class="modal-title">LOGOS</h4>
+                </div><!-- end modal-header -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="thumbnail">
+                                <a href="img/smartTech_03.png" data-lightbox="logo" title="Smartech"><img src="img/smartTech_03.png" /></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-3">
+                            <div class="thumbnail">
+                                <a href="img/Log_03.png" data-lightbox="logo" title="S"><img src="img/Log_03.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-3 -->
+                        <div class="col-lg-3">
+                            <div class="thumbnail">
+                                <a href="img/Logo3_03.png" data-lightbox="logo" title="New"><img src="img/Logo3_03.png"/></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-3 -->
+                        <div class="col-lg-3">
+                            <div class="thumbnail">
+                                <a href="img/MSE-New-Logo_02.png" data-lightbox="logo" title="Meshx"><img src="img/MSE-New-Logo_02.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-3 -->
+                    </div><!-- end row -->
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="thumbnail">
+                                <a href="img/Logo4_03.png" data-lightbox="logo" title="Best"><img src="img/Logo4_03.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-3 -->
+                        <div class="col-lg-3">
+                            <div class="thumbnail">
+                                <a href="img/Logo5_03.png" data-lightbox="logo" title="Smart"><img src="img/Logo5_03.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-3 -->
+                        <div class="col-lg-3">
+                            <div class="thumbnail">
+                                <a href="img/Logo6_03.png" data-lightbox="logo" title="Blank"><img src="img/Logo6_03.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-3 -->
+                        <div class="col-lg-3">
+                            <div class="thumbnail">
+                                <a href="img/signalDesign_02.png" data-lightbox="logo" title="Signal"><img src="img/signalDesign_02.png"></a>
+                            </div><!-- thumbnail -->
+                        </div><!-- col-lg-3 -->
+                    </div><!-- end row -->
+                </div><!-- end modal-body -->
+                <div class="modal-footer">
+                </div><!-- end modal-footer -->
+            </div><!-- end modal-content -->
+        </div><!-- end modal-dialog -->
+    </div><!-- end modal -->
+
+    <!-- ==============================
+	modal Business Cards
+    ============================== -->
+    <div class="modal fade" id="cards-m">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" role="button" data-dismiss="modal"><i class="fa fa-times-circle-o"></i></button>
+                    <h4 class="modal-title">CARDS</h4>
+                </div><!-- end modal-header -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+                                <a href="img/BC1.png" data-lightbox="card"><img src="img/BC1.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+                                <a href="img/BC2.png" data-lightbox="card"><img src="img/BC2.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+                                <a href="img/Business-Card.png" data-lightbox="card"><img src="img/Business-Card.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                    </div><!-- end row -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+                                <a href="img/BC1.png" data-lightbox="card"><img src="img/BC1.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+                                <a href="img/BC2.png" data-lightbox="card"><img src="img/BC2.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+                                <a href="img/Business-Card.png" data-lightbox="card"><img src="img/Business-Card.png"></a>
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                    </div><!-- end row -->
+                </div><!-- end modal-content -->
+                <div class="modal-footer">
+                </div><!-- end modal-footer -->
+            </div><!-- end modal-content -->
+        </div><!-- end modal-dialog -->
+    </div><!-- end modal -->
+
+    <!-- ==============================
+	home
+    ============================== -->
+	<div class="row" id="home">
+		<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+			<div class="container-fluid">
+
+				<!-- brand logo and toggle menu -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navMenu" aria-expanded="false">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand"><img src="img/logo.png"/></a>
+				</div><!-- end navbar-header -->
+
+				<!-- nav links, search, --> 
+				<div class="collapse navbar-collapse" id="navMenu">
+					<ul class="nav navbar-nav">
+                        <li class="hvr-underline-from-center"><a href="index.html">HOME</a></li>
+						<li class="hvr-underline-from-center"><a href="#webDesign">WEB</a></li>
+						<li class="hvr-underline-from-center"><a href="#graphicDesign">GRAPHIC</a></li>
+						<li class="hvr-underline-from-center"><a href="#" data-toggle="modal">ABOUT</a></li>
+					</ul>
+				</div><!-- end navMenu -->
+			</div><!-- end navbar -->
+		</nav><!-- end nav -->
+        <div class="row papa">
+
+            <div class="row" id="details">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <ul id="co_name">
+                        <li class="hvr-underline-from-center"><a href="index.html" class="hvr-wobble-vertical">SMARTEC DESIGNS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9">
+                    <div id="home_nav_menu">
+                        <ul class="nav navbar-nav pull-right" id="home_nav">
+                            <li class="hvr-underline-reveal"><a href="index.html" class="wow zoomIn animated">HOME</a></li>
+                            <li class="hvr-underline-reveal"><a href="#webDesign" class="wow zoomIn animated">WEB</a></li>
+                            <li class="hvr-underline-reveal"><a href="#graphicDesign" class="wow zoomIn animated">GRAPHIC</a></li>
+                            <li class="hvr-underline-reveal"><a href="#" data-toggle="modal" class="wow zoomIn animated">ABOUT</a></li>
+                        </ul>
+                    </div><!-- end navMenu -->
+                </div>
+            </div>
+
+            <div class="row" id="info">
+                <div class="panel pap  wow zoomInRight animated">
+                    <div class="panel-body">
+                        <h2 class="hvr-wobble-bottom animated"><strong>SMARTEC DESIGNS</strong></h2>
+                        <h4 class="text-muted">I'm a student at Multimedia University of Kenya, studying&nbsp;<em><strong>BSc. Information Technology</strong></em>.</h4>
+                        <h6>I love programming very much...</h6>
+                        <small>Take your time and go through my website.</small><br />
+                        <button class="w3-btn w3-btn-bar  btn btn-lg btn-danger">MORE...</button>
+                    </div>
+                </div><!-- end pap -->
+            </div><!-- end col-lg-8 -->
+
+        </div><!-- end papa -->
+	</div><!-- end home -->
+
+    <!-- ==============================
+	web design
+	============================== -->
+
+	<div class="container">
+        <div class="row" id="webDesign">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="well">
+                    <div class="page-header">
+                        <h1 class="wow fadeInUp animated" data-wow-offset="5"  data-wow-iteration="1">
+                            Web&nbsp;<strong>Design</strong>&nbsp;<i class="fa fa-joomla"></i>
+                            <small>Information</small>
+                        </h1>
+                    </div>
+                    <div class="wow fadeInUp animated" data-wow-offset="5"  data-wow-iteration="1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+
+                    </div>
+                </div><!-- end overlay -->
+            </div>
+        </div><!-- end row -->
+    </div>
+
+    <!-- ==============================
+	graphic design
+	============================== -->
+
+    <div class="container" id="graphicDesign">
+        <div class="row">
+            <div class="page-header">
+                <h1 class="wow fadeInUp animated" data-wow-offset="10"  data-wow-iteration="1">
+                    Graphic <strong>Design</strong>&nbsp;<i class="fa fa-photo"></i>
+                    <small class="text-muted">Smart Graphic Designs for your company.</small>
+                </h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInLeft animated g_design" data-wow-offset="5"  data-wow-iteration="1">
+                <div class="panel">
+                    <div class="panel-danger">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Posters</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel thumbnail">
+                                <img src="" class="g_image" width="200px" height="120px" />
+                            </div>
+                            <ul>
+                                <li>Banners</li>
+                                <li>Billboards</li>
+                                <li>Calendars</li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#posters-m" role="button" data-toggle="modal" class="w3-btn w3-btn-block btn1">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end posters -->
+
+            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp animated g_design" data-wow-offset="5"  data-wow-iteration="1">
+                <div class="panel">
+                    <div class="panel-danger">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Logos</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel thumbnail">
+                                <img src="img/MSE-New-Logo_02.png" class="g_image" width="200px"  height="120px" />
+                            </div>
+                            <ul>
+                                <li>Iconic/ Symbolic</li>
+                                <li>LogoType/Wordmark</li>
+                                <li>Combination marks</li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#logos-m" role="button" data-toggle="modal" class="w3-btn w3-btn-block btn1">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end logos -->
+
+            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInRight animated g_design" data-wow-offset="5"  data-wow-iteration="1">
+                <div class="panel">
+                    <div class="panel-danger">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Cards</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel thumbnail">
+                                <img src="img/BC1.png" class="g_image" width="200px" height="120px" />
+                            </div>
+                            <ul>
+                                <li>Business Cards</li>
+                                <li>Wedding Cards</li>
+                                <li>Invitation Cards</li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <a href="#cards-m" role="button" data-toggle="modal" class="w3-btn w3-btn-block btn1">View Sample</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- cards -->
+        </div><!-- end row -->
+    </div>
+
+	<!-- ==============================
+	location
+	============================== -->
+
+    <div class="container">
+        <div class="row" id="location">
+            <div class="thumbnail">
+                <div class="page-header">
+                    <h1 class="wow slideInUp animated">
+                        My&nbsp;<strong>Location</strong>&nbsp;<i class="fa fa-map-marker"></i>
+                        <small>Map & Location of our business.</small>
+                    </h1>
+                </div>
+                <div class="col-lg-8 wow fadeInLeft animated">
+                    <h1>MAP</h1>
+                </div><!-- end col-lg-8 -->
+                <div class="col-lg-4 wow fadeInRight animated">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div><!-- end col-lg-4 -->
+            </div>
+        </div><!-- end row -->
+    </div>
+
+</div><!-- end container-fluid -->
+
+<!-- ==============================
+Share links
+============================== -->
+<div id="share">
+    <ul id="share_icons">
+        <li><a href="#" ><i class="fa fa-facebook-square s_icon"></i></a></li>
+        <li><a href="#" ><i class="fa fa-twitter-square s_icon"></i></a></li>
+        <li><a href="#" ><i class="fa fa-google-plus-square s_icon"></i></a></li>
+    </ul>
+</div>
+
+<!-- ==============================
+footer
+============================== -->
+<footer>
+    <div class="container">
+        <a href="#"><i class="fa fa-arrow-circle-o-up pulse animated infinite" id="up"></i></a>
+        <a href="#developer" data-toggle="modal" id="dev">Watilah</a>
+        <a href="https://web.facebook.com/fwatilah" target="_blank"><i class="fa fa-3x fa-facebook-square hvr-pulse-shrink social"></i></a>
+        <a href="https://twitter.com/watilahfelix" target="_blank"><i class="fa fa-3x fa-twitter-square hvr-pulse-shrink social"></i></a>
+        <a href="https://www.linkedin.com/in/felix-watilah-82152b118?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-3x fa-linkedin-square hvr-pulse-shrink social"></i></a>
+        <a href="https://github.com/FelixWatilah" target="_blank"><i class="fa fa-3x fa-github-square hvr-pulse-shrink social"></i></a>
+        <a href="#contact-form" data-toggle="modal" target="_blank"><i class="fa fa-3x fa-envelope-square hvr-pulse-shrink social"></i></a>
+
+        <h6><strong>Copyright &copy; 2016, <a href="#developer" data-toggle="modal"> <i class="fa fa-caret-left"></i>&nbsp;W. F. Watilah&nbsp;<i class="fa fa-caret-right"></i></a></strong></h6>
+    </div><!-- end footer -->
+</footer>	
+
+<!-- jquery libraries -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lettering.min.js"></script>
+<script type="text/javascript" src="js/lightbox.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/typed.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/circliful.min.js"></script>
+<script type="text/javascript" src="js/scrollorama.js"></script>
+<script type="text/javascript" src="js/animatescroll.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>
